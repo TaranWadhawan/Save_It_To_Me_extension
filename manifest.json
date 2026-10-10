@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Save it to ME",
+  "version": "1.0",
+  "description": "Save, manage, and bookmark tabs from your active window.",
+  "permissions": [
+    "tabs",
+    "storage",
+    "bookmarks"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
